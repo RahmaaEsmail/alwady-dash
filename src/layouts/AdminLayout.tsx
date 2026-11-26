@@ -160,7 +160,7 @@ export default function AdminLayout() {
             )}
           </div>
         </header>
-        <main className="mx-auto max-w-5xl px-4 py-6 pb-28 sm:px-6">
+        <main className="w-full px-4 py-6 pb-28 sm:px-6">
           <Outlet />
         </main>
       </div>

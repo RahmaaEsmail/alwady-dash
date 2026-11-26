@@ -11,7 +11,7 @@ export function SaveBar({ count, saving, onSave, onDiscard }: { count: number; s
   if (!visible) return null;
   return (
     <div className="anim-rise fixed inset-x-0 bottom-0 z-40 border-t border-line bg-white/95 shadow-[0_-4px_20px_rgba(15,58,107,0.1)] backdrop-blur lg:ps-64">
-      <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-4 py-3 sm:px-6">
+      <div className="flex w-full flex-wrap items-center justify-between gap-3 px-4 py-3 sm:px-6">
         <div className="flex items-center gap-2 text-sm font-semibold text-dark">
           <span className="size-2.5 rounded-full bg-accent" />
           {t("common.changes", { count })}
